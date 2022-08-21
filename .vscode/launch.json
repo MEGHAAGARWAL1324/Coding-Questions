@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch reverse_number",
+            "request": "launch",
+            "mainClass": "reverse_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime_number_range",
+            "request": "launch",
+            "mainClass": "prime_number_range",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime_number",
+            "request": "launch",
+            "mainClass": "prime_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch leap_year",
+            "request": "launch",
+            "mainClass": "leap_year",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch greater_three_number",
+            "request": "launch",
+            "mainClass": "greater_three_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch greatest_two_number",
+            "request": "launch",
+            "mainClass": "greatest_two_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_given_range",
+            "request": "launch",
+            "mainClass": "sum_given_range",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_N_Numbers",
+            "request": "launch",
+            "mainClass": "sum_N_Numbers",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
             "name": "Launch even_odd",
             "request": "launch",
             "mainClass": "even_odd",
