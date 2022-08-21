@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch even_odd",
+            "request": "launch",
+            "mainClass": "even_odd",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch positive_negative",
+            "request": "launch",
+            "mainClass": "positive_negative",
+            "projectName": "Coding-Questions_3ba8c323"
+        }
+    ]
+}
