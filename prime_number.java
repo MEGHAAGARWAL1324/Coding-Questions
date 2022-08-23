@@ -5,7 +5,7 @@ public void check_prime(int num){
         System.out.println(num+" is not a Prime Number");
     }
     int count=0;
-    for (int i = 2; i <=num-1; i++) {
+    for (int i = 2; i <=num/i; i++) {
         if(num%i==0){
             count++;
         }
