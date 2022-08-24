@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch abundant_number",
+            "request": "launch",
+            "mainClass": "abundant_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch harshad_number",
+            "request": "launch",
+            "mainClass": "harshad_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch automorphic_number",
+            "request": "launch",
+            "mainClass": "automorphic_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfect_square",
+            "request": "launch",
+            "mainClass": "perfect_square",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfect_number",
+            "request": "launch",
+            "mainClass": "perfect_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
+            "name": "Launch strong_number",
+            "request": "launch",
+            "mainClass": "strong_number",
+            "projectName": "Coding-Questions_3ba8c323"
+        },
+        {
+            "type": "java",
             "name": "Launch factor_number",
             "request": "launch",
             "mainClass": "factor_number",
