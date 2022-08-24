@@ -1,5 +1,5 @@
 import java.util.*;
-public class strong_number {
+public class abundant_number {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Number: ");
@@ -11,11 +11,11 @@ public class strong_number {
             rev=rev+fact(rem);
             n=n/10;
         }
-        if(temp==rev){
-            System.out.println("It is a Strong Number");
+        if(rev>temp){
+            System.out.println("It is a Abundant Number");
         }
         else{
-            System.out.println("It is not a Strong Number");
+            System.out.println("It is not a Abundant Number");
         }
     }
 
