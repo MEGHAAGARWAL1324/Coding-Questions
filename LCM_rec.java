@@ -1,16 +1,15 @@
-import java.util.Scanner;
-
-public class HCF_rec {
-    public static int hcf(int num1,int num2) {
+import java.util.*;
+public class LCM_rec {
+    public static int lcm(int num1,int num2) {
         if(num1==num2){
             return num1;
         }
         
         if(num1>num2){
-        return (hcf(num1-num2, num2));
+        return (lcm(num1-num2, num2));
         }
         else{
-            return (hcf(num1, num2-num1));
+            return (lcm(num1, num2-num1));
         }
         
     }
@@ -19,8 +18,7 @@ public class HCF_rec {
         System.out.print("Enter two number: ");
         int num1=sc.nextInt();
         int num2=sc.nextInt();
-
-        System.out.println(hcf(num1,num2)); 
+System.out.print("Lcm= ");
+        System.out.println((num1*num2)/lcm(num1,num2)); 
     }
-    
 }
