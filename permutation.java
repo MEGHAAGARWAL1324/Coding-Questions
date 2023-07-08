@@ -1,24 +1,32 @@
-import java.util.Scanner;
+package recursion;
 
 public class permutation {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a Number of People in classroom: ");
-        int n = sc.nextInt();
-        System.out.print("Enter a Occupy seat in a classroom: ");
-        int r = sc.nextInt();
 
-        int number = (n - r);
-        int permutation = fact(n) / fact(number);
-        System.out.println("Total Possible arrangement= " + permutation);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abb";
+		printPermutn(s,"");
 
+
+	}
+public static void printPermutn(String str,String ans) {
+	if (str.length() == 0) {
+        System.out.print(ans + " ");
+        return;
     }
 
-    public static int fact(int num) {
-        int f = 1;
-        for (int i = 1; i <= num; i++) {
-            f = f * i;
-        }
-        return f;
+    for (int i = 0; i < str.length(); i++) {
+
+        // ith character of str
+        char ch = str.charAt(i);
+
+        // Rest of the string after excluding
+        // the ith character
+        String ros = str.substring(0, i) +
+                    str.substring(i + 1);
+
+        // Recursive call
+        printPermutn(ros, ans + ch);
     }
+}
 }
